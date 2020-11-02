@@ -5,18 +5,22 @@
 </style>
 <table border="1">
     <?php
-        for($i=0; $i<5; $i++)
+    $size=100;
+        for($i=0; $i<$size; $i++)
         {?>
             <tr>
-                <?php for($j=0;$j<5; $j++ )
+                <?php
+
+                for($j=0;$j<$size; $j++ )
                 {
+
                     $col='black';
-                    if($i>$j && $i<4 && $j<2) $col = 'yellow';
-                    if($i>$j && $i>2 && $j>0) $col = 'brown';
-                    if($i<$j && $i<2 && $j<4) $col = 'blue';
-                    if($i<$j && $i>0 && $j>2) $col = 'orange';
+                    if($j-$i<0 && $j<$size-$i-1) $col = 'yellow';
+                    if($j-$i<0 && $j>$size-$i-1) $col = 'brown';
+                    if($j-$i>0 && $j<$size-$i-1) $col = 'blue';
+                    if($j-$i>0 && $j>$size-$i-1) $col = 'orange';
                     if ($j==$i) $col='red';
-                    if ($j==4-$i) $col='green';
+                    if ($j==$size-$i-1) $col='green';
 
                     echo "<td bgcolor=$col></td>";
                 }?>
