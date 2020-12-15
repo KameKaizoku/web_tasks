@@ -8,11 +8,13 @@ function print_info($query)
     $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
     if ($result) {
         $rows = mysqli_num_rows($result);
-        echo "<table border='1'><tr><td>Наименование</td><td>Цена</td></tr>";
+        echo "<table ><tr><td>Наименование</td><td>Цена</td><td>Изображение</td></tr>";
         for ($i = 0; $i < $rows ; ++$i) {
             $row = mysqli_fetch_row($result);
             echo "<tr>";
-            for ($j = 0; $j < 2; ++$j) echo "<td>$row[$j]</td>";
+            for ($j = 0; $j < 3; ++$j) {
+                if($j==2) echo "<td><img src = images/$row[$j] width='120px' height='120px'></td>";
+                else echo "<td>$row[$j]</td>"; }
             echo "</tr>";
         }
         echo "</table>";

@@ -1,4 +1,4 @@
 <?php
 include_once 'functions/func.php';
-print_info($query ="select name, price from menu where category = 4");
+print_info($query ="select name, price, image from menu where category = 4");
 ?>
