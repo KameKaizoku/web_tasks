@@ -1,3 +1,4 @@
+<?// echo "<pre>"; print_r($_POST); echo "</pre>";?>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -32,7 +33,15 @@
 				font-size: 16pt;
 			}
 		</style>
-	</html>
+
+        <script>
+            function upload(id, file_name){
+
+                document.getElementById('phptext').value = file_name;
+                document.getElementById(id).submit();
+            }
+        </script>
+	</head>
 	
 	<body>
 		<table align=center id=tab >
@@ -47,16 +56,17 @@
 				<table>
 					<tr>
 						<td id=menu height=350px valign=top>
-							<form action="template.php">
+							<form action="template.php" method="post" id = "form_id">
+                                <input id = phptext type = hidden name="phptext">
 								<div>
 									<ol class = sp>
-										<li><a href=#>О нас</a></li>
-										<li><a href='menu/menu.php'>Меню</a></li>
+                                        <li><label onclick="upload('form_id', 'menu/us.php');">О нас</label></li>
+										<li><label onclick="upload('form_id', 'menu/menu.php');">Меню</label></li>
 										<ul>
-											<li><a href=#>Выпечка</a></li>
-											<li><a href=#>Кофе</a></li>
-											<li><a href=#>Чай</a></li>
-											<li><a href=#>Прохладительные напитки</a></li>
+											<li><label onclick="upload('form_id', 'menu/bakery.php');">Выпечка</label></li>
+											<li><label onclick="upload('form_id', 'menu/coffee.php');">Кофе</label></li>
+											<li><label onclick="upload('form_id', 'menu/tea.php');">Чай</label></li>
+											<li><label onclick="upload('form_id', 'menu/drinks.php');">Прохладительные напитки</label></li>
 										</ul>
 										<li><a href=#>Адреса</a></li>
 										<li><a href=#>Контакты</a></li>
@@ -64,11 +74,9 @@
 								</div>
 							</form>
 						</td>
-						<td id=cont valign=top>
-							<p>В сети наших кофеен теплая и спокойная атмосфера сочетается с изысканными сортами чая, профессионально приготовленным кофе и превосходной кухней. </p>
-							<p>У нас вы можете попробовать великолепные десерты, а также превосходную японскую и европейскую кухню. Наше кофе идеально подходит как для деловых встреч, так и для приятного препровождения в кругу друзей. У нас вы всегда можете, как просто вкусно поужинать, пообедать и позавтракать, так и провести романтическое свидание или отпраздновать свой день рождения.</p>
-							<p>Помимо основного меню, которое способно удовлетворить даже изысканного гостя, у нас появляются и тематические меню. Наше кафе идеально подходит как для тихого и уютного отдыха, так и для шумного и веселого празднования.</p>
-						</td>
+                            <td id=cont valign=top><?php
+                                include_once $_POST[phptext];
+                            ?></td>
 					</tr>
 				</table>
 			</td>
