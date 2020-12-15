@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="672b839c-188b-4fb9-b7b1-79dff1182188" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../menu/bakery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backer/backery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/HW2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/redgreen.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lfMzENf4hjD7tfx8J4Me5jng3u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../menu/menu.php" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="672b839c-188b-4fb9-b7b1-79dff1182188" name="Default Changelist" comment="" />
+      <created>1607983952578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607983952578</updated>
+      <workItem from="1607983953803" duration="4257000" />
+      <workItem from="1607989446652" duration="4441000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1143" y="292" key="#Inspections" timestamp="1607984012925">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1143" y="292" key="#Inspections/0.0.2560.1400@0.0.2560.1400" timestamp="1607984012925" />
+    <state x="420" y="458" key="FileChooserDialogImpl" timestamp="1607994066774">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="420" y="458" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1607994066774" />
+    <state x="1351" y="537" key="NewPhpFileDialog" timestamp="1607983977231">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1351" y="537" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1607983977231" />
+    <state x="1018" y="258" key="SettingsEditor" timestamp="1607983959060">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1018" y="258" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1607983959060" />
+    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1607993984531">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607993984531" />
+  </component>
+</project>
