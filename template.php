@@ -10,6 +10,7 @@
 				color:#777777
 			}
             a{
+                color: black;
                 text-decoration: none;
             }
             a:visited{
@@ -92,7 +93,7 @@
 		</tr>
             <tr>
                 <td id=phones>
-                    <p align="center">Открыты с 9:00-20:00. Звноите 987654321!</p>
+                    <p align="center">Открыты с 9:00-20:00. Звоните 987654321!</p>
                 </td>
             </tr>
 		<tr>
