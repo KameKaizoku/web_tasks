@@ -14,8 +14,7 @@ if ($_REQUEST[username] != 'admin' or $_REQUEST[psw] != 'admin')
             text-align:center;
             color:#777777
         }
-        a
-            color: black;
+        a{
             text-decoration: none;
         }
         a:visited{
