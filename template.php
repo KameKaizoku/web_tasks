@@ -1,4 +1,4 @@
-<?// echo "<pre>"; print_r($_POST); echo "</pre>";?>
+<?//echo "<pre>"; print_r($_POST); echo "</pre>";?>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -9,6 +9,12 @@
 				text-align:center;
 				color:#777777
 			}
+            a{
+                text-decoration: none;
+            }
+            a:visited{
+                color: black;
+            }
 			
 			body{
 				background-color:beige;
@@ -68,20 +74,27 @@
 											<li><label onclick="upload('form_id', 'menu/tea.php');">Чай</label></li>
 											<li><label onclick="upload('form_id', 'menu/drinks.php');">Прохладительные напитки</label></li>
 										</ul>
-										<li><a href=#>Адреса</a></li>
-										<li><a href=#>Контакты</a></li>
+										<li><label onclick="upload('form_id', 'menu/map.php');">Адреса</label></li>
+										<li><a href=#phones>Контакты</a></li>
+                                        <li><a href='new_user.php'>Админка</a></li>
 									</ol>
 								</div>
 							</form>
 						</td>
                             <td id=cont valign=top><?php
-                                include_once $_POST[phptext];
+                                $php = $_POST[phptext] ? $_POST[phptext] : 'menu/us.php';
+                                include_once $php;
                             ?></td>
 					</tr>
 				</table>
 			</td>
 			
 		</tr>
+            <tr>
+                <td id=phones>
+                    <p align="center">Открыты с 9:00-20:00. Звноите 987654321!</p>
+                </td>
+            </tr>
 		<tr>
 			<td id=foot>
 				<p class=footer>&copy 2020</p>

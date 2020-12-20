@@ -45,27 +45,25 @@
         }
     </style>
 </head>
-<body background="images/background.jpg">
-<form>
-    <table align="center" width="600" border="0" bgcolor="#d0f5ff">
+<body >
+<form action="adminka.php" method="post">
+    <table align="center" width="600" border="0" bgcolor="beige">
         <tr>
-            <td colspan="2"><span class="g1">Создайте аккаунт</span></td>
+            <td colspan="2"><span class="g1">Войти в админку</span></td>
         </tr>
-        <tr>
-            <td><input type="text" name="first_name" placeholder="Имя"></td>
-            <td><input type="text" name="last_name" placeholder="Фамилия"></td>
-        </tr>
+
         <tr>
             <td colspan="2"><input type="text" name="username" placeholder="Имя пользователя"></td>
         </tr>
         <tr>
             <td><input type="password" name="psw" placeholder="Пароль"></td>
-            <td><input type="password" name="psw_check" placeholder="Подтвердить"></td>
         </tr>
+
         <tr>
-            <td><span class="g_enter"><a href="login.html">Войти</a></span></td>
-            <td align="right"><input class="next" type="submit" value="Далее"></td>
+<!--            <td><span class="g_enter"><a href="template.php">Войти</a></span></td>-->
+            <td align="right"><input class="next" type="submit" value="Войти"></td>
         </tr>
+
     </table>
 </form>
 </body>
