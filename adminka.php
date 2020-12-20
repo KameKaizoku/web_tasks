@@ -14,7 +14,8 @@ if ($_REQUEST[username] != 'admin' or $_REQUEST[psw] != 'admin')
             text-align:center;
             color:#777777
         }
-        a{
+        a
+            color: black;
             text-decoration: none;
         }
         a:visited{
@@ -96,7 +97,7 @@ if ($_REQUEST[username] != 'admin' or $_REQUEST[psw] != 'admin')
     </tr>
     <tr>
         <td id=phones>
-            <p align="center">Открыты с 9:00-20:00. Звноите 987654321!</p>
+            <p align="center">Открыты с 9:00-20:00. Звоните 987654321!</p>
         </td>
     </tr>
     <tr>
